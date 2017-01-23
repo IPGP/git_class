@@ -72,7 +72,7 @@ git pull
 
 ## Part 4: Github and Online Interfaces
 ### Task
-* make a fork of the main repository (www.github.org/ipgp/newspaper)
+* make a fork of the main repository [github.com/ipgp/newspaper](https://github.com/ipgp/newspaper)
 * clone the fork on your computer
 * add the main repository with name `upstream` to the local repository
 * integrate your article in the newspaper
