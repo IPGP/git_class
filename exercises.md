@@ -1,15 +1,20 @@
 # Git Exercises and Commands
 ## Part 1: Repositories
 ### Task
+* setup your git account with:
+  `git config --global user.name "John Doe"` and 
+  `git config --global user.email johndoe@example.com`
 * put the 3 text [files](https://github.com/IPGP/git_class/tree/master/example)
   into a new folder
 * initialize the git repository using `git init <directory>`
 * add the 3 text files using `git add <filenames>`
 * check the status of your repository with `git status`. Try to understand
   the status output.
+* use `git reset` as indicated in the status output to unstage the changes
+* stage the changes again, using `git add`
 * use `git commit` to save the files into a commit
 * Now make some changes to the files. (E.g. delete some content)
-* Use `git commit` again
+* Stage and commit again
 * Try out the command `git diff`. What do you see?
 * Use `git log` to get the name of the first commit
 * Go back to the first version using `git checkout <commit name>`
@@ -18,12 +23,18 @@
 * (for the adventorous: use `git reset --hard <commit name>` to return the
   `HEAD` to the first commit. Why should this be avoided if possible?)
 * use `git rm` to remove the 3 text files
-* choose the article of an animal of your choice from
-  [wikipedia](https://en.wikipedia.org/wiki/List_of_mammals_of_Europe).
-  Copy the name and descriptive texts of the animal into a new text file.
+* choose a touristic site in Paris of your choice from
+  [wikipedia](https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Paris).
+  Copy the name and descriptive texts into a new text file.
   Add and commit it to the repository.
 * make some changes to the texts. Put some errors in it, change the size
-  of the animal or mix it with another one. Commit the changed text.
+  of the landmark or mix it with another. Commit the changed text. This commit
+  will be the base for the following classes.
+
+### you should have learned how to:
+* create the local repository (init)
+* update the local repository (staging, commiting, reset)
+* inspect the local repository (log, diff, show)
 
 ### commands
 ```bash
@@ -54,7 +65,12 @@ git diff
 * commit the final version
 * merge the branch into the master branch
 * use `gitk` or another gui to visualize the git graph structure
-*
+
+### you should have learned:
+* what a branch is
+* how to open a new branch
+* how to merge one branch into another
+
 ### commands
 ```bash
 git branch
@@ -77,6 +93,10 @@ gitk (or another gui)
 * add the second local repository as a remote
 * make a change, commit, and use `git push origin master` to update the second
   local repository
+
+### you should have learned:
+* how to add a remote repository
+* how to synchronize with the remote repository
 
 ### commands
 ```bash
@@ -103,6 +123,10 @@ git pull
 * reply to the comments of the repository managers and fix conflicts on
   your local computer by commiting and pushing new versions to your github
   fork's branch.
+
+### you should have learned:
+* how to use git to interact with a repository hosted on github
+* how to work on foreign repositories using forks and pull requests
 
 ### commands
 ```bash
