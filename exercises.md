@@ -1,7 +1,8 @@
 # Git Exercises and Commands
 ## Part 1: Repositories
 ### Task
-* put the 3 text files that were given to you into a new folder
+* put the 3 text [files](https://github.com/IPGP/git_class/tree/master/example)
+  into a new folder
 * initialize the git repository using `git init <directory>`
 * add the 3 text files using `git add <filenames>`
 * check the status of your repository with `git status`. Try to understand
@@ -17,8 +18,8 @@
 * (for the adventorous: use `git reset --hard <commit name>` to return the
   `HEAD` to the first commit. Why should this be avoided if possible?)
 * use `git rm` to remove the 3 text files
-* choose the article of an animal of your choice from wikipedia
-  (e.g. https://en.wikipedia.org/wiki/List_of_mammals_of_Europe).
+* choose the article of an animal of your choice from
+  [wikipedia](https://en.wikipedia.org/wiki/List_of_mammals_of_Europe).
   Copy the name and descriptive texts of the animal into a new text file.
   Add and commit it to the repository.
 * make some changes to the texts. Put some errors in it, change the size
