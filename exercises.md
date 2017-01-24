@@ -22,7 +22,7 @@
   Copy the name and descriptive texts of the animal into a new text file.
   Add and commit it to the repository.
 * make some changes to the texts. Put some errors in it, change the size
-  of the animal, etc... . Commit the changed text.
+  of the animal or mix it with another one. Commit the changed text.
 
 ### commands
 ```bash
