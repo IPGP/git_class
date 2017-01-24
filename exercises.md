@@ -87,7 +87,8 @@ git pull
 
 ## Part 4: Github and Online Interfaces
 ### Task
-* make a fork of the main repository (www.github.org/ipgp/newspaper)
+* make a fork of the main repository
+  [github.com/ipgp/newspaper](https://github.com/ipgp/newspaper)
 * clone the fork on your personal computer
 * add the main repository as a remote with name `upstream` to the local
   repository. Checkout the file `.git/config` after you have done it. What
