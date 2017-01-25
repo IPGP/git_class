@@ -1,9 +1,10 @@
 # Git Exercises and Commands
 ## Part 1: Repositories
 ### Task
-* setup your git account with:
+* setup your git user name and email address:
   `git config --global user.name "John Doe"` and 
-  `git config --global user.email johndoe@example.com`
+  `git config --global user.email johndoe@example.com` (and optionally the
+  preferred text editor of git `git config --global core.editor vim`)
 * put the 3 text [files](https://github.com/IPGP/git_class/tree/master/example)
   into a new folder
 * initialize the git repository using `git init <directory>`
@@ -12,7 +13,9 @@
   the status output.
 * use `git reset` as indicated in the status output to unstage the changes
 * stage the changes again, using `git add`
-* use `git commit` to save the files into a commit
+* use `git commit` to save the files into a commit. A text editor will open
+  and you need to write a short commit message (e.g. initial commit). Save
+  the text file and exit the editor when you are done to finish the commit.
 * Now make some changes to the files. (E.g. delete some content)
 * Stage and commit again
 * Try out the command `git diff`. What do you see?
