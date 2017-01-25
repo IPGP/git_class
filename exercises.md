@@ -95,15 +95,16 @@ gitk (or another gui)
 4. add a file `README.md` using the github online interface
 5. use `git pull` to download and merge the new version into the local repository
 6. open a new folder next to the one that contains the repository
-7. use `git clone --bare` to make a local clone of the repository
+7. use `git clone --bare` to make a local clone of the repository. What is
+   a bare repository?
 8. add the second local repository as remote `local`. Open the file
    `.git/config` to see and change the remotes.
-9. make a change, commit, and use `git push local master` to update the second
-   local repository
+9. make a change, commit, and use `git push local master` to update the
+   `local` repository
 
 ### you should have learned:
 * how to add a remote repository
-* how to synchronize with the remote repository
+* how to synchronize (`pull`, `push`) with the remote repository
 
 ### commands
 ```bash
