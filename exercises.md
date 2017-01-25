@@ -54,7 +54,7 @@ git diff
 
 ## Part 2: Branches and Merging
 ### Task
-* unzip the tar file with index.html into your repository
+* extract the tar file with `index.html` into your repository
 * use `git mv` to put your article file into the corresponding subfolder
   as `<dinosaurname>.txt`
 * commit all extracted files
