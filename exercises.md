@@ -60,7 +60,8 @@ git diff
   as `<touristic_site_name>.txt`
 3. commit all extracted files
 4. look at `index.html` with your browser
-5. make a new branch using `git branch <branch name>`
+5. make a new branch using `git branch <branch name>`. Checkout if the branch
+   exists with `git branch` and then `git checkout <branch name>` to move to it.
 6. Use `git mv <touristic_site_name>.txt <touristic_site_name>.html` to change the article
   into an html file
 7. edit the contents of your article file, as the example article shows
