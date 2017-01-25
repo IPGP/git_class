@@ -65,7 +65,7 @@ git diff
 6. Use `git mv <touristic_site_name>.txt <touristic_site_name>.html` to change the article
   into an html file
 7. edit the contents of your article file, as the example article shows
-8. look at `index.html` with your browser again
+8. edit and look at `index.html` with your browser again
 9. do further edits if you want (e.g. add images)
 10. commit the final version
 11. merge the branch into the master branch
