@@ -57,11 +57,11 @@ git diff
 ### Task
 1. extract the tar file with `index.html` into your repository
 2. use `git mv` to put your article file into the corresponding subfolder
-  as `<dinosaurname>.txt`
+  as `<touristic_site_name>.txt`
 3. commit all extracted files
 4. look at `index.html` with your browser
 5. make a new branch using `git branch <branch name>`
-6. Use `git mv <dinosaurname>.txt <touristic_site_name>.html` to change the article
+6. Use `git mv <touristic_site_name>.txt <touristic_site_name>.html` to change the article
   into an html file
 7. edit the contents of your article file, as the example article shows
 8. look at `index.html` with your browser again
