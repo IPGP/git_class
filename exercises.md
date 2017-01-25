@@ -64,12 +64,13 @@ git diff
    exists with `git branch` and then `git checkout <branch name>` to move to it.
 6. Use `git mv <touristic_site_name>.txt <touristic_site_name>.html` to change the article
   into an html file
-7. edit the contents of your article file, as the example article shows
+7. edit the contents of your article file
 8. edit and look at `index.html` with your browser again
 9. do further edits if you want (e.g. add images)
 10. commit the final version
 11. merge the branch into the master branch
-12. use `gitk` or another gui to visualize the git graph structure
+12. use `gitk`, `git log --all --graph --decorate` or another gui to visualize
+    the git graph structure
 
 ### you should have learned:
 * what a branch is
@@ -88,16 +89,17 @@ gitk (or another gui)
 ### Task
 1. create a github account
 2. create a new repository on github
- use `git add remote` to add the remote repository to your repository (follow
-  the github help when you create the repository)
+   use `git add remote` to add the remote repository to your repository (follow
+   the github help when you create the repository)
 3. use `git push` to push your commits to the remote
 4. add a file `README.md` using the github online interface
 5. use `git pull` to download and merge the new version into the local repository
 6. open a new folder next to the one that contains the repository
-7. use `git clone` to make a local clone of the repository
-8. add the second local repository as a remote
-9. make a change, commit, and use `git push origin master` to update the second
-  local repository
+7. use `git clone --bare` to make a local clone of the repository
+8. add the second local repository as remote `local`. Open the file
+   `.git/config` to see and change the remotes.
+9. make a change, commit, and use `git push local master` to update the second
+   local repository
 
 ### you should have learned:
 * how to add a remote repository
