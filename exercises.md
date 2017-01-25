@@ -61,7 +61,7 @@ git diff
 3. commit all extracted files
 4. look at `index.html` with your browser
 5. make a new branch using `git branch <branch name>`
-6. Use `git mv <dinosaurname>.txt <dinosaurname>.html` to change the article
+6. Use `git mv <dinosaurname>.txt <touristic_site_name>.html` to change the article
   into an html file
 7. edit the contents of your article file, as the example article shows
 8. look at `index.html` with your browser again
