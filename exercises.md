@@ -11,8 +11,9 @@
 4. add the 3 text files using `git add <filenames>`
 5. check the status of your repository with `git status`. Try to understand
   the status output.
-6. use `git reset` as indicated in the status output to unstage the changes
-7. stage the changes again, using `git add`
+6. use `git rm --cached <file names>` as indicated in the status output to
+   unstage the changes
+7. stage the changes again, using `git add <file names>`
 8. use `git commit` to save the files into a commit. A text editor will open
   and you need to write a short commit message (e.g. initial commit). Save
   the text file and exit the editor when you are done to finish the commit.
@@ -21,8 +22,8 @@
 11. Try out the command `git diff`. What do you see?
 12. Use `git log` to get the name of the first commit
 13. Go back to the first version using `git checkout <commit name>`
-14. check that you are seeing the first commit. Then go back to the latest commit
-  using `git checkout HEAD`.
+14. check that you are seeing the first commit. Then go back to the latest
+    commit using `git checkout master`.
 15. (for the adventorous: use `git reset --hard <commit name>` to return the
   `HEAD` to the first commit. Why should this be avoided if possible?)
 16. use `git rm` to remove the 3 text files
