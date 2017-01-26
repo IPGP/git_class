@@ -91,7 +91,8 @@ gitk (or another gui)
 2. create a new repository on github
    use `git add remote` to add the remote repository to your repository (follow
    the github help when you create the repository)
-3. use `git push` to push your commits to the remote
+3. use `git push` to push your commits to the remote (you get help with
+   `git push --help`)
 4. add a file `README.md` using the github online interface
 5. use `git pull` to download and merge the new version into the local repository
 6. open a new folder next to the one that contains the repository
