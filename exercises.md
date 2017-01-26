@@ -123,10 +123,10 @@ git pull
 3. make a new branch with a name of your choice
 4. checkout the new branch.
 5. integrate your article into the newspaper and commit to the new branch
-6. add the main repository as a remote with name `upstream` to the local
+6. push the modified newspaper branch to your github repository fork
+7. add the main repository as a remote with name `upstream` to the local
   repository. Checkout the file `.git/config` after you have done it. What
   is the difference between `origin` and `upstream`?
-7. push the modified newspaper branch to your github repository fork
 8. open a pull request using the github web interface to include your changes
   in the main repository
 9. reply to the comments of the repository managers and fix conflicts on
