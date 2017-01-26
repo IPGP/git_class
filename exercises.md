@@ -137,6 +137,8 @@ git pull
 1. Type `git fetch` and afterwards `git show-ref` in your repository.
    What are you seeing? Try to understand that `git pull` is a combination
    of `git fetch` and `git merge`.
+2. Try to push from the local master to a different remote branch with
+   `git push origin master:new_branch`.
 
 ### you should have learned:
 * how to use git to interact with a repository hosted on github
