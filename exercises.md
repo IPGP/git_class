@@ -126,13 +126,17 @@ git pull
 6. add the main repository as a remote with name `upstream` to the local
   repository. Checkout the file `.git/config` after you have done it. What
   is the difference between `origin` and `upstream`?
-7. Type `git show-ref`. What are you seeing?
-8. push the modified newspaper branch to your github repository fork
-9. open a pull request using the github web interface to include your changes
+7. push the modified newspaper branch to your github repository fork
+8. open a pull request using the github web interface to include your changes
   in the main repository
-10. reply to the comments of the repository managers and fix conflicts on
+9. reply to the comments of the repository managers and fix conflicts on
   your local computer by commiting and pushing new versions to your github
   fork's branch.
+
+### advanced
+1. Type `git fetch` and afterwards `git show-ref` in your repository.
+   What are you seeing? Try to understand that `git pull` is a combination
+   of `git fetch` and `git merge`.
 
 ### you should have learned:
 * how to use git to interact with a repository hosted on github
