@@ -120,16 +120,17 @@ git pull
 1. make a fork of the main repository
   [github.com/ipgp/newspaper](https://github.com/ipgp/newspaper)
 2. clone the fork on your personal computer
-3. add the main repository as a remote with name `upstream` to the local
+3. make a new branch with a name of your choice
+4. checkout the new branch.
+5. integrate your article into the newspaper and commit to the new branch
+6. add the main repository as a remote with name `upstream` to the local
   repository. Checkout the file `.git/config` after you have done it. What
   is the difference between `origin` and `upstream`?
-4. Type `git show-ref`. What are you seeing?
-5. make a new branch and integrate your article in the cloned repository
-  newspaper
-6. push the modified newspaper branch to your github repository fork
-7. open a pull request using the github web interface to include your changes
+7. Type `git show-ref`. What are you seeing?
+8. push the modified newspaper branch to your github repository fork
+9. open a pull request using the github web interface to include your changes
   in the main repository
-8. reply to the comments of the repository managers and fix conflicts on
+10. reply to the comments of the repository managers and fix conflicts on
   your local computer by commiting and pushing new versions to your github
   fork's branch.
 
