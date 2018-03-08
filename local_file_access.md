@@ -1,6 +1,6 @@
-#How to enable local file access on your browser
+# How to enable local file access on your browser
 
-##Chrome
+## Chrome
 
 For these commands to work, all the Chrome windows should be closed beforehand.
 
@@ -22,7 +22,7 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 ```
 
 
-##Safari
+## Safari
 
 1. Enable the hidden Develop menu through system preferences [see here](http://www.idownloadblog.com/2016/07/01/how-to-enable-the-hidden-develop-menu-in-safari-on-mac/)
 2. Click on "Develop --> Disable Local File Restrictions":
@@ -30,5 +30,5 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 ![safari](https://www.webrotate360.com/media/32908/safari-11-local-webrotate-previews.png)
 
 
-##Firefox
+## Firefox
 No easy solution, so far...
