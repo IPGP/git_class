@@ -1,6 +1,6 @@
 # git_class
-Material for the 2017 Git class at IPGP
+Material for the 2018 Git class at IPGP
 
 * [Exercises](exercises.md)
-* [article repository (tar)](article.tgz)
-* [article repository (zip)](article.zip)
+* [recipe repository (tar)](recipe.tgz)
+* [recipe repository (zip)](recipe.zip)
