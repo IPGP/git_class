@@ -55,7 +55,7 @@ git diff
 ### Task
 1. extract the archive file with `index.html` into your repository
 2. look at `index.html` with your web browser (note: you may need to enable
-  local file access for your browser. Instructions [here](local_file_access))
+  local file access for your browser. Instructions [here](local_file_access.md))
 3. commit all files
 4. make a new branch using `git branch <branch name>`. Checkout if the branch
    exists with `git branch` and then `git checkout <branch name>` to move to it.
