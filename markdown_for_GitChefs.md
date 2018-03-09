@@ -1,5 +1,6 @@
 
-# Markdown for GitChefs ![Markdown](http://pad.haroopress.com/docs/en/markdown/images/markdown_128.png)
+![Markdown](http://pad.haroopress.com/docs/en/markdown/images/markdown_128.png)
+# Markdown for GitChefs
 
 
 **Markdown** is a lightweight markup language with plain text formatting syntax.
@@ -13,6 +14,7 @@ appeared over the years to answer these issues.
 source: [wikipedia](https://en.wikipedia.org/wiki/Markdown)
 
 You will find here the bases of Markdown you will need to write your best recipe
+
 **A text-file containing Markdown should have the extension `.md` to be read properly**
 
 ---
