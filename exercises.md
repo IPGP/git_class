@@ -70,8 +70,10 @@ git diff
 11. do further edits to `<your_recipe>.md`, add one ore more images
 12. commit the final version
 13. merge the branch into the master branch
-14. use `gitk`, `git log --all --graph --decorate` or another gui to visualize
-    the git graph structure
+14. use `gitk`, `git log --all --graph --decorate` or another GUI to visualize
+  the git graph structurr (try [GitUp](http://gitup.co) on Mac, or
+  [ungit](https://github.com/FredrikNoren/ungit) on all platforms;
+  other clients are listed [here](https://git-scm.com/download/gui/linux))
 
 ### you should have learned:
 * what a branch is
