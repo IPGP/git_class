@@ -4,13 +4,13 @@
 
 For these commands to work, all the Chrome windows should be closed beforehand.
 
-Linux:
+### Linux:
 
 ```bash
 chrome --allow-file-access-from-files index.html
 ```
 
-macOS:
+### macOS:
 
 ```bash
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files index.html
@@ -20,6 +20,19 @@ note you can create an alias in your `.bashrc` file:
 ```bash
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 ```
+
+### Windows:
+
+1. Create a copy of the Chrome shortcut on your desktop and rename it
+   to something like `Chrome (file access)`.
+2. Right-click on the shortcut and choose `Properties`.
+3. Edit the `Target` field by adding `--allow-file-access-from-files index.html`
+   after the double quotes (`"`).
+4. Close all the Chrome windows and start Chrome through this new shortcut.
+5. Now you can double-click the `index.html` file.
+
+![chrome_setting_win](chrome_desktop_shortcut_win.png)
+
 
 
 ## Safari
