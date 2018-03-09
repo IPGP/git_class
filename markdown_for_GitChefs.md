@@ -133,7 +133,7 @@ Rémi once said:
 
 ### V.II. Math expression
 
-an apple \times an orange $`\times`$ 4 strawberries = a delicious fruit salad
+an apple $\times$ an orange $`\times`$ 4 strawberries = a delicious fruit salad
 
 if $`\Delta`$ = 1 then $`\alpha`$ = 0 right ?
 
