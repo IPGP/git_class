@@ -28,11 +28,9 @@
   `HEAD` to the first commit. Why should this be avoided if possible?)
 16. use `git rm` to remove the 3 text files
 17. choose a recipe from [Foodista](http://www.foodista.com);
-    Copy the recipe into a new text file;
-18. *Markdown-ize* this recipe (if you don't know what's Markdown and/or how to use it, please visit [this page](markdown_for_GitChefs.md));
-20. add and commit it to the repository.
-21. make some changes to the recipe (personalize it!). Commit the changed text.
-    This commit will be the base for the following classes.
+    copy the recipe into a new text file; add and commit it to the repository.
+18. make some changes to the recipe (personalize it!); commit the changed text;
+    this commit will be the base for the following classes.
 
 ### you should have learned how to:
 * create the local repository (init)
@@ -64,14 +62,15 @@ git diff
   as `recipes/recipe.md`. This will overwrite the default recipe.
 6. look again at `index.html` with your browser and see if your recipe shows up.
 7. commit all the changes
-8. use `git mv recipes/recipe.md recipes/<your_recipe>.md` to give a more
+8. *Markdown-ize* your recipe (if you don't know what's Markdown and/or how to use it, please visit [this page](markdown_for_GitChefs.md));
+9. use `git mv recipes/recipe.md recipes/<your_recipe>.md` to give a more
   appropriate name of your choice.
-9. edit `index.html` to change the name of the recipe file.
-10. commit these changes
-11. do further edits to `<your_recipe>.md`, add one ore more images
-12. commit the final version
-13. merge the branch into the master branch
-14. use `gitk`, `git log --all --graph --decorate` or another GUI to visualize
+10. edit `index.html` to change the name of the recipe file.
+11. commit these changes
+12. do further edits to `<your_recipe>.md`, add one ore more images
+13. commit the final version
+14. merge the branch into the master branch
+15. use `gitk`, `git log --all --graph --decorate` or another GUI to visualize
   the git graph structurr (try [GitUp](http://gitup.co) on Mac, or
   [ungit](https://github.com/FredrikNoren/ungit) on all platforms;
   other clients are listed [here](https://git-scm.com/download/gui/linux))
