@@ -29,7 +29,7 @@
 16. use `git rm` to remove the 3 text files
 17. choose a recipe from [Foodista](http://www.foodista.com);
     Copy the recipe into a new text file;
-18. *Markdown-ize* this recipe (if you don't know what's Markdown and/or how to use it, please visit [this page](markdown_forGitChefs.md));
+18. *Markdown-ize* this recipe (if you don't know what's Markdown and/or how to use it, please visit [this page](markdown_for_GitChefs.md));
 20. add and commit it to the repository.
 21. make some changes to the recipe (personalize it!). Commit the changed text.
     This commit will be the base for the following classes.
