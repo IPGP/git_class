@@ -1,5 +1,5 @@
 
-# Markown for GitChefs ![markdown.png](markdown.png)
+# Markdown for GitChefs ![markdown.png](markdown.png)
 
 **Markdown** is a lightweight markup language with plain text formatting syntax.
 It is designed so that it can be converted to HTML and many other formats using
@@ -133,7 +133,7 @@ Rémi once said:
 
 ### V.II. Math expression
 
-an apple $`\times`$ an orange $`\times`$ 4 strawberries = a delicious fruit salad
+an apple \times an orange $`\times`$ 4 strawberries = a delicious fruit salad
 
 if $`\Delta`$ = 1 then $`\alpha`$ = 0 right ?
 
@@ -143,4 +143,4 @@ an apple $`\times`$ an orange $`\times`$ 4 strawberries = a delicious fruit sala
 if $`\Delta`$ = 1 then $`\alpha`$ = 0 right ?
 ```
 
-**note:** actually between the \$` `\$ you have to use the [Mathematical LateX formalism](https://www.sharelatex.com/learn/Mathematical_expressions) 
+**note:** actually between the \$` `\$ you have to use the [Mathematical LateX formalism](https://www.sharelatex.com/learn/Mathematical_expressions)
