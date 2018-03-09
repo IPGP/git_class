@@ -17,20 +17,21 @@
 8. use `git commit` to save the files into a commit. A text editor will open
   and you need to write a short commit message (e.g. initial commit). Save
   the text file and exit the editor when you are done to finish the commit.
-9. Now make some changes to the files. (E.g. delete some content)
+9. now make some changes to the files. (E.g. delete some content)
 10. Stage and commit again
-11. Try out the command `git diff`. What do you see?
-12. Use `git log` to get the name of the first commit
-13. Go back to the first version using `git checkout <commit name>`
+11. try out the command `git diff`. What do you see?
+12. use `git log` to get the name of the first commit
+13. go back to the first version using `git checkout <commit name>`
 14. check that you are seeing the first commit. Then go back to the latest
     commit using `git checkout master`.
 15. (for the adventurous: use `git reset --hard <commit name>` to return the
   `HEAD` to the first commit. Why should this be avoided if possible?)
 16. use `git rm` to remove the 3 text files
-17. choose a recipe from [Foodista](http://www.foodista.com)
-    Copy the recipe into a new text file.
-    Add and commit it to the repository.
-18. make some changes to the recipe (personalize it!). Commit the changed text.
+17. choose a recipe from [Foodista](http://www.foodista.com);
+    Copy the recipe into a new text file;
+18. *Markdown-ize* this recipe (if you don't know what's Markdown and/or how to use it, please visit [this page](markdown_forGitChefs.md));
+20. add and commit it to the repository.
+21. make some changes to the recipe (personalize it!). Commit the changed text.
     This commit will be the base for the following classes.
 
 ### you should have learned how to:
@@ -63,7 +64,7 @@ git diff
   as `recipes/recipe.md`. This will overwrite the default recipe.
 6. look again at `index.html` with your browser and see if your recipe shows up.
 7. commit all the changes
-8. Use `git mv recipes/recipe.md recipes/<your_recipe>.md` to give a more
+8. use `git mv recipes/recipe.md recipes/<your_recipe>.md` to give a more
   appropriate name of your choice.
 9. edit `index.html` to change the name of the recipe file.
 10. commit these changes
