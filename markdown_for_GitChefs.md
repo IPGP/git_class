@@ -80,10 +80,7 @@ You will find the recipe of the famous pesto alla genovese [here](http://www.foo
 
 ---
 
-## IV. Items and tables
-
-### IV.I How to write a list of items
-
+## IV. Items 
 
 What do i need:
  - These
@@ -99,24 +96,6 @@ What do i need:
   - That
  - This
  - That
-```
-
-
-### IV.II Tables
-
-| Ingredients | Quantity |
-| ----------- | -------- |
-|        eggs |        3 |
-|       flour |     300g |
-|      water  |     10cl |
-
-
-```Markdown
-| Ingredients | Quantity |
-| ----------- | -------- |
-|        eggs |        3 |
-|       flour |     300g |
-|      water  |     10cl |
 ```
 
 ---
