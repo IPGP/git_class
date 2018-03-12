@@ -17,6 +17,9 @@ You will find here the bases of Markdown you will need to write your best recipe
 
 **A text-file containing Markdown should have the extension `.md` to be read properly**
 
+
+Let's practice (here)[http://jbt.github.io/markdown-editor/]
+
 ---
 
 ## I. Sections and subsections:
