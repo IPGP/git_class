@@ -71,7 +71,7 @@ git diff
 13. commit the final version
 14. merge the branch into the master branch
 15. use `gitk`, `git log --all --graph --decorate` or another GUI to visualize
-  the git graph structurr (try [GitUp](http://gitup.co) on Mac, or
+  the git graph structure (try [GitUp](http://gitup.co) on Mac, or
   [ungit](https://github.com/FredrikNoren/ungit) on all platforms;
   other clients are listed [here](https://git-scm.com/download/gui/linux))
 
