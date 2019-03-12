@@ -54,7 +54,8 @@ git diff
 
 ## Part 2: Branches and Merging
 ### Task
-1. extract the archive file with `index.html` into your repository
+1. extract the archive [article.tgz](article.tgz)
+   (or [article.zip](article.zip)) into your repository
 2. look at `index.html` with your web browser (note: you may need to enable
    local file access for your browser. Instructions
    [here](local_file_access.md))
