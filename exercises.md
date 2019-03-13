@@ -64,7 +64,7 @@ git diff
 4. make a new branch using `git branch <branch name>`. Checkout if the branch
    exists with `git branch` and then `git checkout <branch name>` to move to it.
 5. use `git mv` to put your album review file into the corresponding subfolder
-   as `article/article.md`. This will overwrite the default article.
+   as `articles/article.md`. This will overwrite the default article.
 6. look again at `index.html` with your browser and see if your article shows up.
 7. commit all the changes
 8. *Markdown-ize* your article (if you don't know what's Markdown and/or how
