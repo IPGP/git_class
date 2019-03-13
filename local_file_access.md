@@ -44,4 +44,4 @@ alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
 
 ## Firefox
-No easy solution, so far...
+It should just work :)
