@@ -8,30 +8,31 @@
 2. put the 3 text [files](example)
    into a new folder
 3. initialize the git repository using `git init <directory>`
-4. add the 3 text files using `git add <filenames>`
-5. check the status of your repository with `git status`. Try to understand
+4. use `git status` in order to see what you have currently in your git repository
+5. add the 3 text files using `git add <filenames>`
+6. check the status of your repository with `git status`. Try to understand
    the status output.
-6. use `git rm --cached <file names>` as indicated in the status output to
+7. use `git rm --cached <file names>` as indicated in the status output to
    unstage the changes
-7. stage the changes again, using `git add <file names>`
-8. use `git commit` to save the files into a commit. A text editor will open
+8. stage the changes again, using `git add <file names>`
+9. use `git commit` to save the files into a commit. A text editor will open
    and you need to write a short commit message (e.g. initial commit). Save
    the text file and exit the editor when you are done to finish the commit.
-9. now make some changes to the files. (e.g. delete some content)
-10. Stage and commit again
-11. try out the command `git diff`. What do you see?
-12. use `git log` to get the name of the first commit
-13. go back to the first version using `git checkout <commit name>`
-14. check that you are seeing the first commit. Then go back to the latest
+10. now make some changes to the files. (e.g. delete some content)
+11. Stage and commit again
+12. try out the command `git diff`. What do you see?
+13. use `git log` to get the name of the first commit
+14. go back to the first version using `git checkout <commit name>`
+15. check that you are seeing the first commit. Then go back to the latest
     commit using `git checkout master`.
-15. (for the adventurous: use `git reset --hard <commit name>` to return the
+16. (for the adventurous: use `git reset --hard <commit name>` to return the
     `HEAD` to the first commit. Why should this be avoided if possible?)
-16. use `git rm` to remove the 3 text files
-17. choose a music album review from
+17. use `git rm` to remove the 3 text files
+18. choose a music album review from
     [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), from [BBC Music Reviews](http://www.bbc.co.uk/music/reviews/), or from any other source
     licensed by [Creative Commons](https://search.creativecommons.org)
     (Please, don't use copyrighted material!)
-18. make some changes to the review (personalize it!); commit the changed text;
+19. make some changes to the review (personalize it!); commit the changed text;
     this commit will be the base for the following classes.
 
 ### you should have learned how to:
