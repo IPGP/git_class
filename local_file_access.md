@@ -20,6 +20,7 @@ Note that `index.html` must be before `--args`.
 
 ### Windows:
 
+#### Method 1:
 1. Create a copy of the Chrome shortcut on your desktop and rename it
    to something like `Chrome (file access)`.
 2. Right-click on the shortcut and choose `Properties`.
@@ -32,6 +33,12 @@ Note that `index.html` must be before `--args`.
 
 Note that you can safely remove this desktop shortcut after the end of this
 class.
+
+#### Method 2:
+1. Close all Chrome windows.
+2. Press Win + R on your keyboard to open the Run dialog box.
+3. Enter the command `chrome.exe --allow-file-access-from-file`
+4. Now you can double-click the `index.html` file.
 
 
 ## Firefox
