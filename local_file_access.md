@@ -13,12 +13,7 @@ chrome --allow-file-access-from-files index.html
 ### macOS:
 
 ```bash
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --allow-file-access-from-files index.html
-```
-note you can create an alias in your `.bashrc` file:
-
-```bash
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+open -a "Google Chrome" index.html --args --allow-file-access-from-files
 ```
 
 ### Windows:
