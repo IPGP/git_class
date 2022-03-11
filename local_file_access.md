@@ -30,6 +30,16 @@ open -a "Google Chrome" index.html --args --allow-file-access-from-files
 ![chrome_setting_win](chrome_desktop_shortcut_win.png)
 
 
+## Firefox
+⚠️ Important ⚠️
+For security reasons, you might want to revert this change after the end of
+this class.
+
+1. Type "about:config" in the search bar
+2. If necessary, click on "Accept the Risk and Continue"
+3. Search for "security.fileuri.strict_origin_policy"
+4. Double click on `true` to set this parameter to `false`
+
 
 ## Safari
 ⚠️ Important ⚠️
@@ -40,14 +50,3 @@ this class.
 2. Click on "Develop --> Disable Local File Restrictions":
 
 ![safari](https://www.webrotate360.com/media/32908/safari-11-local-webrotate-previews.png)
-
-
-## Firefox
-⚠️ Important ⚠️
-For security reasons, you might want to revert this change after the end of
-this class.
-
-1. Type "about:config" in the search bar
-2. If necessary, click on "Accept the Risk and Continue"
-3. Search for "security.fileuri.strict_origin_policy"
-4. Double click on `true` to set this parameter to `false`
