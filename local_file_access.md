@@ -16,6 +16,7 @@ chrome --allow-file-access-from-files index.html
 ```bash
 open -a "Google Chrome" index.html --args --allow-file-access-from-files
 ```
+Note that `index.html` must be before `--args`.
 
 ### Windows:
 
@@ -28,6 +29,9 @@ open -a "Google Chrome" index.html --args --allow-file-access-from-files
 5. Now you can double-click the `index.html` file.
 
 ![chrome_setting_win](chrome_desktop_shortcut_win.png)
+
+Note that you can safely remove this desktop shortcut after the end of this
+class.
 
 
 ## Firefox
