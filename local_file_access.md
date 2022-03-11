@@ -40,6 +40,8 @@ this class.
 3. Search for "security.fileuri.strict_origin_policy"
 4. Double click on `true` to set this parameter to `false`
 
+![firefox_config](firefox_config.png)
+
 
 ## Safari
 ⚠️ Important ⚠️
