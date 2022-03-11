@@ -32,6 +32,9 @@ open -a "Google Chrome" index.html --args --allow-file-access-from-files
 
 
 ## Safari
+⚠️ Important ⚠️
+For security reasons, you might want to revert this change after the end of
+this class.
 
 1. Enable the hidden Develop menu through system preferences [see here](http://www.idownloadblog.com/2016/07/01/how-to-enable-the-hidden-develop-menu-in-safari-on-mac/)
 2. Click on "Develop --> Disable Local File Restrictions":
@@ -40,4 +43,11 @@ open -a "Google Chrome" index.html --args --allow-file-access-from-files
 
 
 ## Firefox
-It should just work :)
+⚠️ Important ⚠️
+For security reasons, you might want to revert this change after the end of
+this class.
+
+1. Type "about:config" in the search bar
+2. If necessary, click on "Accept the Risk and Continue"
+3. Search for "security.fileuri.strict_origin_policy"
+4. Double click on `true` to set this parameter to `false`
