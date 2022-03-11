@@ -1,5 +1,5 @@
 # git_class
-Material for the 2019 Git class at IPGP
+Material for the 2022 Git class at IPGP
 
 * [Exercises](exercises.md)
 * [article repository (tar)](article.tgz)
