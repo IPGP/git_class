@@ -22,7 +22,7 @@ open -a "Google Chrome" index.html --args --allow-file-access-from-files
 1. Create a copy of the Chrome shortcut on your desktop and rename it
    to something like `Chrome (file access)`.
 2. Right-click on the shortcut and choose `Properties`.
-3. Edit the `Target` field by adding `--allow-file-access-from-files index.html`
+3. Edit the `Target` field by adding `--allow-file-access-from-files`
    after the double quotes (`"`).
 4. Close all the Chrome windows and start Chrome through this new shortcut.
 5. Now you can double-click the `index.html` file.
