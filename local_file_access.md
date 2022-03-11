@@ -2,6 +2,7 @@
 
 ## Chrome
 
+⚠️ Important ⚠️
 For these commands to work, all the Chrome windows should be closed beforehand.
 
 ### Linux:
