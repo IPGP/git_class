@@ -143,7 +143,7 @@ git pull
   fork's branch.
 
 ### advanced
-1. Type `git fetch` and afterwards `git show-ref` in your repository.
+1. Type `git fetch` and afterwards `git status` in your repository.
    What are you seeing? Try to understand that `git pull` is a combination
    of `git fetch` and `git merge`.
 2. Try to push from the local master to a different remote branch with
@@ -155,7 +155,6 @@ git pull
 
 ### commands
 ```bash
-git show-ref
 git fetch
 git blame
 ```
