@@ -67,3 +67,14 @@ this class.
 2. Click on "Develop --> Disable Local File Restrictions":
 
 ![safari](https://www.webrotate360.com/media/32908/safari-11-local-webrotate-previews.png)
+
+
+## Edge
+
+#### Windows:
+1. Press Win + R on your keyboard to open the Run dialog box.
+2. Enter the command `taskkill /F /IM msedge.exe` (this will close all the
+   open Edge windows)
+3. Press again Win + R to reopen the Run dialog box.
+4. Enter the command `msedge.exe --allow-file-access-from-file`
+5. Now you can double-click the `index.html` file.
