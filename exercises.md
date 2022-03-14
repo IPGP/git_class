@@ -12,7 +12,7 @@
 5. add the 3 text files using `git add <filenames>`
 6. check the status of your repository with `git status`. Try to understand
    the status output.
-7. use `git rm --cached <file names>` as indicated in the status output to
+7. use `git reset <file names>` as indicated in the status output to
    unstage the changes
 8. stage the changes again, using `git add <file names>`
 9. use `git commit` to save the files into a commit. A text editor will open
