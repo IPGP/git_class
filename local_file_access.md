@@ -10,7 +10,7 @@ For these commands to work, all the Chrome windows should be closed beforehand.
 From a terminal:
 
 ```bash
-chrome --allow-file-access-from-files index.html
+google-chrome --allow-file-access-from-files index.html
 ```
 
 ### macOS:
