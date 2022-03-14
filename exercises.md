@@ -108,29 +108,30 @@ gitk (or another gui)
 ### 3.1 Tasks
 
 1. create a GitHub account
-2. create a new repository on GitHub
+2. create an ssh key using `ssh-keygen` and upload the key to GitHub
+3. create a new repository on GitHub
    use `git add remote` to add the remote repository to your repository (follow
    the GitHub help when you create the repository)
-3. use `git push` to push your commits to the remote (you get help with
+4. use `git push` to push your commits to the remote (you get help with
    `git push --help`)
-4. add a file `README.md` using the GitHub online interface
-5. use `git pull` to download and merge the new version into the local repository
-6. modify again the file `README.md` using the GitHub online interface
-7. use `git fetch` to download remote commits
-8. type `git status`. What are you seeing? Try to understand that `git pull` is
+5. add a file `README.md` using the GitHub online interface
+6. use `git pull` to download and merge the new version into the local repository
+7. modify again the file `README.md` using the GitHub online interface
+8. use `git fetch` to download remote commits
+9. type `git status`. What are you seeing? Try to understand that `git pull` is
    a combination of `git fetch` and `git merge`
-9. go one folder down from your repository
-10. use `git clone --bare` to make a local clone of the repository. What is
+10. go one folder down from your repository
+11. use `git clone --bare` to make a local clone of the repository. What is
    a bare repository?
-11. add the second local repository as remote `local`. Open the file
+12. add the second local repository as remote `local`. Open the file
    `.git/config` to see and change the remotes.
-12. make a change, commit, and use `git push local master` to update the
+13. make a change, commit, and use `git push local master` to update the
    `local` repository
-* how to synchronize (`pull`, `fetch`, `push`) with the remote repository
+
 ### 3.2 You should have learned
 
 * how to add a remote repository
-* how to synchronize (`pull`, `push`) with the remote repository
+* how to synchronize (`pull`, `fetch`, `push`) with the remote repository
 
 ### 3.3 Commands
 
