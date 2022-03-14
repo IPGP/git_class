@@ -1,6 +1,9 @@
 # Git Exercises and Commands
+
 ## Part 1: Repositories
-### Task
+
+### 1.1 Tasks
+
 1. setup your git user name and email address:
    `git config --global user.name "John Doe"` and
    `git config --global user.email johndoe@example.com` (and optionally the
@@ -35,13 +38,15 @@
 19. make some changes to the review (personalize it!); commit the changed text;
     this commit will be the base for the following classes.
 
-### you should have learned how to:
-* create the local repository (init)
-* update the local repository (staging, committing, reset)
-* inspect the local repository (log, diff, show)
+### 1.2 You should have learned
 
-### commands
-```bash
+* how to create the local repository (init)
+* how to update the local repository (staging, committing, reset)
+* how to inspect the local repository (log, diff, show)
+
+### 1.3 Commands
+
+```git
 git config
 git init
 git add
@@ -54,7 +59,9 @@ git diff
 ```
 
 ## Part 2: Branches and Merging
-### Task
+
+### 2.1 Tasks
+
 1. extract the archive [article.tgz](article.tgz)
    (or [article.zip](article.zip)) into your repository
 2. look at `index.html` with your web browser (note: you may need to enable
@@ -81,13 +88,15 @@ git diff
     [ungit](https://github.com/FredrikNoren/ungit) on all platforms;
     other clients are listed [here](https://git-scm.com/download/gui/linux))
 
-### you should have learned:
+### 2.2 You should have learned
+
 * what a branch is
 * how to open a new branch
 * how to merge one branch into another
 
-### commands
-```bash
+### 2.3 Commands
+
+```git
 git branch
 git checkout <branch name>
 git merge
@@ -95,7 +104,9 @@ gitk (or another gui)
 ```
 
 ## Part 3: Remotes
-### Task
+
+### 3.1 Tasks
+
 1. create a GitHub account
 2. create a new repository on GitHub
    use `git add remote` to add the remote repository to your repository (follow
@@ -112,12 +123,14 @@ gitk (or another gui)
 9. make a change, commit, and use `git push local master` to update the
    `local` repository
 
-### you should have learned:
+### 3.2 You should have learned
+
 * how to add a remote repository
 * how to synchronize (`pull`, `push`) with the remote repository
 
-### commands
-```bash
+### 3.3 Commands
+
+```git
 git remote
 git push
 git clone
@@ -125,7 +138,9 @@ git pull
 ```
 
 ## Part 4: Github and Online Interfaces
-### Task
+
+### 4.1 Tasks
+
 1. make a fork of the main repository
   [github.com/ipgp/billboard](https://github.com/ipgp/billboard)
 2. clone the fork on your personal computer
@@ -142,19 +157,22 @@ git pull
   your local computer by committing and pushing new versions to your GitHub
   fork's branch.
 
-### advanced
+### 4.2 Advanced
+
 1. Type `git fetch` and afterwards `git status` in your repository.
    What are you seeing? Try to understand that `git pull` is a combination
    of `git fetch` and `git merge`.
 2. Try to push from the local master to a different remote branch with
    `git push origin master:new_branch`.
 
-### you should have learned:
+### 4.3 You should have learned
+
 * how to use git to interact with a repository hosted on GitHub
 * how to work on foreign repositories using forks and pull requests
 
-### commands
-```bash
+### 4.4 Commands
+
+```git
 git fetch
 git blame
 ```
