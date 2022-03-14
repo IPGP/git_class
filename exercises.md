@@ -115,7 +115,7 @@ gitk (or another gui)
    `git push --help`)
 4. add a file `README.md` using the GitHub online interface
 5. use `git pull` to download and merge the new version into the local repository
-6. Modify again the file `README.md` using the GitHub online interface
+6. modify again the file `README.md` using the GitHub online interface
 7. use `git fetch` to download remote commits
 8. type `git status`. What are you seeing? Try to understand that `git pull` is
    a combination of `git fetch` and `git merge`
