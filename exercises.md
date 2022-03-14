@@ -12,15 +12,15 @@
 5. add the 3 text files using `git add <filenames>`
 6. check the status of your repository with `git status`. Try to understand
    the status output.
-7. use `git reset <file names>` as indicated in the status output to
-   unstage the changes
+7. use `git rm --cached <file names>` as indicated in the status output
+   (or `git reset <file names>`) unstage the changes
 8. stage the changes again, using `git add <file names>`
 9. use `git commit` to save the files into a commit. A text editor will open
    and you need to write a short commit message (e.g. initial commit). Save
    the text file and exit the editor when you are done to finish the commit.
 10. now make some changes to the files. (e.g. delete some content)
-11. Stage and commit again
-12. try out the command `git diff`. What do you see?
+11. try out the command `git diff`. What do you see?
+12. Stage and commit again
 13. use `git log` to get the name of the first commit
 14. go back to the first version using `git checkout <commit name>`
 15. check that you are seeing the first commit. Then go back to the latest
