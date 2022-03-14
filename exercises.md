@@ -115,12 +115,16 @@ gitk (or another gui)
    `git push --help`)
 4. add a file `README.md` using the GitHub online interface
 5. use `git pull` to download and merge the new version into the local repository
-6. go one folder down from your repository
-7. use `git clone --bare` to make a local clone of the repository. What is
+6. Modify again the file `README.md` using the GitHub online interface
+7. use `git fetch` to download remote commits
+8. type `git status`. What are you seeing? Try to understand that `git pull` is
+   a combination of `git fetch` and `git merge`
+9. go one folder down from your repository
+10. use `git clone --bare` to make a local clone of the repository. What is
    a bare repository?
-8. add the second local repository as remote `local`. Open the file
+11. add the second local repository as remote `local`. Open the file
    `.git/config` to see and change the remotes.
-9. make a change, commit, and use `git push local master` to update the
+12. make a change, commit, and use `git push local master` to update the
    `local` repository
 
 ### 3.2 You should have learned
@@ -135,6 +139,7 @@ git remote
 git push
 git clone
 git pull
+git fetch
 ```
 
 ## Part 4: Github and Online Interfaces
@@ -159,10 +164,7 @@ git pull
 
 ### 4.2 Advanced
 
-1. Type `git fetch` and afterwards `git status` in your repository.
-   What are you seeing? Try to understand that `git pull` is a combination
-   of `git fetch` and `git merge`.
-2. Try to push from the local master to a different remote branch with
+1. Try to push from the local master to a different remote branch with
    `git push origin master:new_branch`.
 
 ### 4.3 You should have learned
@@ -173,6 +175,5 @@ git pull
 ### 4.4 Commands
 
 ```git
-git fetch
 git blame
 ```
