@@ -126,7 +126,7 @@ gitk (or another gui)
    `.git/config` to see and change the remotes.
 12. make a change, commit, and use `git push local master` to update the
    `local` repository
-
+* how to synchronize (`pull`, `fetch`, `push`) with the remote repository
 ### 3.2 You should have learned
 
 * how to add a remote repository
