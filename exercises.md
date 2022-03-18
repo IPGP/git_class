@@ -148,7 +148,7 @@ git fetch
 ### 4.1 Tasks
 
 1. make a fork of the main repository
-  [github.com/ipgp/billboard](https://github.com/ipgp/billboard)
+  [github.com/git-impatient/billboard](https://github.com/git-impatient/billboard)
 2. clone the fork on your personal computer
 3. make a new branch with a name of your choice
 4. checkout the new branch
