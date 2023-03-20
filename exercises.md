@@ -8,10 +8,10 @@
    `git config --global user.name "John Doe"` and
    `git config --global user.email johndoe@example.com` (and optionally the
    preferred text editor of git `git config --global core.editor vim`)
-2. put the 3 text [files](example)
-   into a new folder
+2. put the 3 text [files](example) into a new folder
 3. initialize the git repository using `git init <directory>`
-4. use `git status` in order to see what you have currently in your git repository
+4. use `git status` in order to see what you have currently in your git
+   repository
 5. add the 3 text files using `git add <filenames>`
 6. check the status of your repository with `git status`. Try to understand
    the status output.
@@ -27,13 +27,15 @@
 13. use `git log` to get the name of the first commit
 14. go back to the first version using `git checkout <commit name>`
 15. check that you are seeing the first commit. Then go back to the latest
-    commit using `git checkout master`.
+    commit using `git checkout main` (or `git checkout master`, depending on
+    the name of  your default branch).
 16. (for the adventurous: use `git reset --hard <commit name>` to return the
     `HEAD` to the first commit. Why should this be avoided if possible?)
 17. use `git rm` to remove the 3 text files
 18. choose a music album review from
-    [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), from [BBC Music Reviews](http://www.bbc.co.uk/music/reviews/), or from any other source
-    licensed by [Creative Commons](https://search.creativecommons.org)
+    [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), from
+    [BBC Music Reviews](http://www.bbc.co.uk/music/reviews/), or from any other
+    source licensed by [Creative Commons](https://search.creativecommons.org)
     (Please, don't use copyrighted material!)
 19. make some changes to the review (personalize it!); commit the changed text;
     this commit will be the base for the following classes.
@@ -82,7 +84,7 @@ git diff
 11. commit these changes
 12. do further edits to `<your_article>.md`, add one ore more images
 13. commit the final version
-14. merge the branch into the master branch
+14. merge the branch into the `main` (or `master`) branch
 15. use `gitk`, `git log --all --graph --decorate` or another GUI to
     visualize the git graph structure (try [GitUp](http://gitup.co) on Mac, or
     [ungit](https://github.com/FredrikNoren/ungit) on all platforms;
@@ -125,8 +127,8 @@ gitk (or another gui)
    a bare repository?
 12. add the second local repository as remote `local`. Open the file
    `.git/config` to see and change the remotes.
-13. make a change, commit, and use `git push local master` to update the
-   `local` repository
+13. make a change, commit, and use `git push local main` (or
+    `git push local master`) to update the `local` repository
 
 ### 3.2 You should have learned
 
@@ -165,8 +167,9 @@ git fetch
 
 ### 4.2 Advanced
 
-1. Try to push from the local master to a different remote branch with
-   `git push origin master:new_branch`.
+1. Try to push from the local `main` (or `master`) to a different remote branch
+   with `git push origin main:new_branch` (or
+   `git push origin master:new_branch`).
 
 ### 4.3 You should have learned
 
