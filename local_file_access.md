@@ -52,7 +52,7 @@ this class.
 
 1. Type "about:config" in the search bar
 2. If necessary, click on "Accept the Risk and Continue"
-3. Search for "security.fileuri.strict_origin_policy"
+3. Search for "security.fileuri.strict\_origin\_policy"
 4. Double click on `true` to set this parameter to `false`
 
 ![firefox_config](firefox_config.png)
