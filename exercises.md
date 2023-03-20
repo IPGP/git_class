@@ -85,10 +85,12 @@ git diff
 12. do further edits to `<your_article>.md`, add one ore more images
 13. commit the final version
 14. merge the branch into the `main` (or `master`) branch
-15. use `gitk`, `git log --all --graph --decorate` or another GUI to
-    visualize the git graph structure (try [GitUp](http://gitup.co) on Mac, or
-    [ungit](https://github.com/FredrikNoren/ungit) on all platforms;
-    other clients are listed [here](https://git-scm.com/download/gui/linux))
+15. use ["Git Graph"](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+    with Visual Studio Code or `git log --all --graph --decorate` in the
+    terminal to visualize the git graph structure. Other possible GUI are
+    [gitk](https://git-scm.com/docs/gitk), [GitUp](http://gitup.co) on Mac, or
+    [ungit](https://github.com/FredrikNoren/ungit) on all platforms
+    (other clients are listed [here](https://git-scm.com/download/gui/linux))
 
 ### 2.2 You should have learned
 
