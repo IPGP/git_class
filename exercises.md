@@ -32,7 +32,7 @@
 16. (for the adventurous: use `git reset --hard <commit name>` to return the
     `HEAD` to the first commit. Why should this be avoided if possible?)
 17. use `git rm` to remove the 3 text files
-18. choose a music album review from
+18. write a music album review, or choose a review from
     [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), from
     [BBC Music Reviews](http://www.bbc.co.uk/music/reviews/), or from any other
     source licensed by [Creative Commons](https://search.creativecommons.org)
