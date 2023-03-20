@@ -104,7 +104,7 @@ git diff
 git branch
 git checkout <branch name>
 git merge
-gitk (or another gui)
+"Git Graph" (or another gui)
 ```
 
 ## Part 3: Remotes
