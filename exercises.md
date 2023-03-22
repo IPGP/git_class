@@ -9,7 +9,9 @@
    `git config --global user.email johndoe@example.com` (and optionally the
    preferred text editor of git `git config --global core.editor vim`)
 2. put the 3 text [files](example) into a new folder
-3. initialize the git repository using `git init <directory>`
+3. initialize the git repository using `git init <directory>`. Want a better
+   terminal experience? Try [Oh My Zsh](https://ohmyz.sh) or
+   [Oh My Bash](https://ohmybash.nntoan.com)!
 4. use `git status` in order to see what you have currently in your git
    repository
 5. add the 3 text files using `git add <filenames>`
@@ -19,26 +21,27 @@
    (or `git reset <file names>`) unstage the changes
 8. stage the changes again, using `git add <file names>`
 9. use `git commit` to save the files into a commit. A text editor will open
-   and you need to write a short commit message (e.g. initial commit). Save
+   and you need to write a short commit message (e.g. "Initial commit"). Save
    the text file and exit the editor when you are done to finish the commit.
 10. now make some changes to the files. (e.g. delete some content)
 11. try out the command `git diff`. What do you see?
 12. Stage and commit again
 13. use `git log` to get the name of the first commit
 14. go back to the first version using `git checkout <commit name>`
-15. check that you are seeing the first commit. Then go back to the latest
-    commit using `git checkout main` (or `git checkout master`, depending on
-    the name of  your default branch).
-16. (for the adventurous: use `git reset --hard <commit name>` to return the
+15. check that you are seeing the first commit; check your current position in
+    the commit history through `git log --all`
+16. go back to the latest commit using `git checkout main` (or
+    `git checkout master`, depending on the name of  your default branch).
+17. (for the adventurous: use `git reset --hard <commit name>` to return the
     `HEAD` to the first commit. Why should this be avoided if possible?)
-17. use `git rm` to remove the 3 text files
-18. write a music album review, or choose a review from
+18. use `git rm` to remove the 3 text files
+19. write a music album review, or choose a review from
     [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), from
     [BBC Music Reviews](http://www.bbc.co.uk/music/reviews/), or from any other
     source licensed by [Creative Commons](https://search.creativecommons.org)
     (Please, don't use copyrighted material!)
-19. make some changes to the review (personalize it!); commit the changed text;
-    this commit will be the base for the following classes.
+20. make some changes to the review (personalize it!); commit the changed text;
+    this commit will be the base for the following parts.
 
 ### 1.2 You should have learned
 
