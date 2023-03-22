@@ -87,13 +87,15 @@ git diff
 11. commit these changes
 12. do further edits to `<your_article>.md`, add one ore more images
 13. commit the final version
-14. merge the branch into the `main` (or `master`) branch
+14. switch back to the `main` (or `master`) branch; create a `README.md` file;
+    make a few more commits
 15. use ["Git Graph"](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
     with Visual Studio Code or `git log --all --graph --decorate` in the
     terminal to visualize the git graph structure. Other possible GUI are
     [gitk](https://git-scm.com/docs/gitk), [GitUp](http://gitup.co) on Mac, or
     [ungit](https://github.com/FredrikNoren/ungit) on all platforms
     (other clients are listed [here](https://git-scm.com/download/gui/linux))
+16. merge the branch into the `main` (or `master`) branch
 
 ### 2.2 You should have learned
 
@@ -121,7 +123,7 @@ git merge
    the GitHub help when you create the repository)
 4. use `git push` to push your commits to the remote (you get help with
    `git push --help`)
-5. add a file `README.md` using the GitHub online interface
+5. edit the file `README.md` using the GitHub online interface
 6. use `git pull` to download and merge the new version into the local repository
 7. modify again the file `README.md` using the GitHub online interface
 8. use `git fetch` to download remote commits
