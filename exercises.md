@@ -128,19 +128,25 @@ git merge
 7. modify again the file `README.md` using the GitHub online interface
 8. use `git fetch` to download remote commits
 9. type `git status`. What are you seeing? Try to understand that `git pull` is
-   a combination of `git fetch` and `git merge`
-10. go one folder down from your repository
-11. use `git clone --bare` to make a local clone of the repository. What is
+   a combination of `git fetch` and `git merge` (or `git rebase`)
+10. make a local commit and a remote commit using the GitHub interface, so that
+    the local and remote repository diverge. Try `git push` and see what happens
+11. do again `git fetch` followed by `git merge`: look at the Git Graph
+12. redo step "10" (local and remote commit), but now do `git fetch` followed by
+    `git rebase`: what is the difference between `merge` and `rebase`?
+13. go one folder down from your repository
+14. use `git clone --bare` to make a local clone of the repository. What is
    a bare repository?
-12. add the second local repository as remote `local`. Open the file
+15. add the second local repository as remote `local`. Open the file
    `.git/config` to see and change the remotes.
-13. make a change, commit, and use `git push local main` (or
+16. make a change, commit, and use `git push local main` (or
     `git push local master`) to update the `local` repository
 
 ### 3.2 You should have learned
 
 * how to add a remote repository
-* how to synchronize (`pull`, `fetch`, `push`) with the remote repository
+* how to synchronize (`pull`, `fetch`, `push`, `merge`, `rebase`) with the
+  remote repository
 
 ### 3.3 Commands
 
@@ -150,6 +156,7 @@ git push
 git clone
 git pull
 git fetch
+git rebase
 ```
 
 ## Part 4: Github and Online Interfaces
