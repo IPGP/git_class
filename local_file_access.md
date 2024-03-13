@@ -63,10 +63,13 @@ this class.
 For security reasons, you might want to revert this change after the end of
 this class.
 
-1. Enable the hidden Develop menu through system preferences [see here](http://www.idownloadblog.com/2016/07/01/how-to-enable-the-hidden-develop-menu-in-safari-on-mac/)
-2. Click on "Develop --> Disable Local File Restrictions":
+1. Enable the hidden Develop menu through system preferences
 
-![safari](https://www.webrotate360.com/media/32908/safari-11-local-webrotate-previews.png)
+![safari_developer](safari_enable_developer_features.png)
+
+1. Disable Local File Restrictions
+
+![safari_local_file_restrictions](safari_disable_local_file_restrictions.png)
 
 
 ## Edge
