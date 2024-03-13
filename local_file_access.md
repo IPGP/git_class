@@ -35,7 +35,7 @@ Note that `index.html` must be before `--args`.
 4. Close all the Chrome windows and start Chrome through this new shortcut.
 5. Now you can double-click the `index.html` file.
 
-![chrome_setting_win](chrome_desktop_shortcut_win.png)
+![chrome_setting_win](imgs/chrome_desktop_shortcut_win.png)
 
 Note that you can safely remove this desktop shortcut after the end of this
 class.
@@ -58,7 +58,7 @@ this class.
 3. Search for "security.fileuri.strict\_origin\_policy"
 4. Double click on `true` to set this parameter to `false`
 
-![firefox_config](firefox_config.png)
+![firefox_config](imgs/firefox_config.png)
 
 ## Safari
 
@@ -68,11 +68,11 @@ this class.
 
 1. Enable the hidden Develop menu through system preferences
 
-![safari_developer](safari_enable_developer_features.png)
+![safari_developer](imgs/safari_enable_developer_features.png)
 
 1. Disable Local File Restrictions
 
-![safari_local_file_restrictions](safari_disable_local_file_restrictions.png)
+![safari_local_file_restrictions](imgs/safari_disable_local_file_restrictions.png)
 
 ## Edge
 

@@ -60,7 +60,7 @@ This is **bold**, *italic*, ~~striketrough~~, _**bold and italic**_
 ## III. Include Image or Link
 ### III.I Show an image
 
-![Cover](Led_Zeppelin_IV.png)
+![Cover](imgs/Led_Zeppelin_IV.png)
 
 ```Markdown
 ![Cover](Led_Zeppelin_IV.png)
