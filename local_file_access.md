@@ -41,7 +41,7 @@ class.
 #### Method 2:
 1. Close all Chrome windows.
 2. Press Win + R on your keyboard to open the Run dialog box.
-3. Enter the command `chrome.exe --allow-file-access-from-file`
+3. Enter the command `chrome.exe --allow-file-access-from-files`
 4. Now you can double-click the `index.html` file.
 
 
@@ -76,5 +76,14 @@ this class.
 2. Enter the command `taskkill /F /IM msedge.exe` (this will close all the
    open Edge windows)
 3. Press again Win + R to reopen the Run dialog box.
-4. Enter the command `msedge.exe --allow-file-access-from-file`
+4. Enter the command `msedge.exe --allow-file-access-from-files`
 5. Now you can double-click the `index.html` file.
+
+### macOS:
+
+From a terminal:
+
+```bash
+open -a "Microsoft Edge" index.html --args --allow-file-access-from-files
+```
+Note that `index.html` must be before `--args`.
