@@ -35,10 +35,13 @@
 17. (for the adventurous: use `git reset --hard <commit name>` to return the
     `HEAD` to the first commit. Why should this be avoided if possible?)
 18. use `git rm` to remove the 3 text files
-19. choose a recipe from [Foodista](http://www.foodista.com) or write your own!
-    Copy the recipe into a new text file; add and commit it to the repository.
-20. make some changes to the recipe (personalize it!); commit the changed text;
-    this commit will be the base for the following classes.
+19. write a music album review, or choose a review from
+    [Wikipedia](https://en.wikipedia.org/wiki/Main_Page), from
+    [BBC Music Reviews](http://www.bbc.co.uk/music/reviews/), or from any other
+    source licensed by [Creative Commons](https://search.creativecommons.org)
+    (Please, don't use copyrighted material!)
+20. make some changes to the review (personalize it!); commit the changed text;
+    this commit will be the base for the following parts.
 
 ### 1.2 You should have learned
 
@@ -64,8 +67,8 @@ git diff
 
 ### 2.1 Tasks
 
-1. extract the archive [recipe.tgz](recipe.tgz)
-   (or [recipe.zip](recipe.zip)) into your repository
+1. extract the archive [article.tgz](article.tgz)
+   (or [article.zip](article.zip)) into your repository
 2. look at `index.html` with your web browser (note: you may need to enable
    local file access for your browser. Instructions
    [here](local_file_access.md))
@@ -73,16 +76,16 @@ git diff
 4. make a new branch using `git branch <branch name>`. Checkout if the branch
    exists with `git branch` and then `git checkout <branch name>` to move to it.
 5. use `git mv` to put your album review file into the corresponding subfolder
-   as `recipes/recipe.md`. This will overwrite the default recipe.
-6. look again at `index.html` with your browser and see if your recipe shows up.
+   as `articles/example.md`. This will overwrite the default article.
+6. look again at `index.html` with your browser and see if your article shows up.
 7. commit all the changes
-8. *Markdown-ize* your recipe (if you don't know what's Markdown and/or how to
-   use it, please visit [this page](markdown_for_GitChefs.md));
-9. use `git mv recipes/recipe.md recipes/<your_recipe>.md` to give a more
-   appropriate name of your choice.
-10. edit `index.html` to change the name of the recipe file.
+8. *Markdown-ize* your article (if you don't know what's Markdown and/or how
+   to use it, please visit [this page](markdown_for_music_lovers.md));
+9. use `git mv articles/example.md articles/<your_article>.md` to give
+   a more appropriate name of your choice.
+10. edit `index.html` to change the name of the article file.
 11. commit these changes
-12. do further edits to `<your_recipe>.md`, add one ore more images
+12. do further edits to `<your_article>.md`, add one ore more images
 13. commit the final version
 14. switch back to the `main` (or `master`) branch; create a `README.md` file;
     make a few more commits
@@ -161,15 +164,15 @@ git rebase
 ### 4.1 Tasks
 
 1. make a fork of the main repository
-  [github.com/git-impatient/cookbook](https://github.com/git-impatient/cookbook)
+  [github.com/git-impatient/billboard](https://github.com/git-impatient/billboard)
 2. clone the fork on your personal computer
 3. make a new branch with a name of your choice
-4. checkout the new branch.
-5. integrate your recipe into the cookbook and commit to the new branch
-6. push the modified cookbook branch to your GitHub repository fork
+4. checkout the new branch
+5. integrate your article into the billboard and commit to the new branch
+6. push the modified billboard branch to your GitHub repository fork
 7. add the main repository as a remote with name `upstream` to the local
-  repository. Checkout the file `.git/config` after you have done it. What
-  is the difference between `origin` and `upstream`?
+   repository. Checkout the file `.git/config` after you have done it. What
+   is the difference between `origin` and `upstream`?
 8. open a pull request using the GitHub web interface to include your changes
   in the main repository
 9. reply to the comments of the repository managers and fix conflicts on
