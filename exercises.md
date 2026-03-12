@@ -70,30 +70,33 @@ git diff
    (PowerShell) on Windows, or `open-in-browser.sh` on macOS/Linux, to open
    `index.html` in your web browser.
    You should see a recipe website with a default recipe.
-3. commit all files
-4. make a new branch using `git branch <branch name>`. Checkout if the branch
+3. commit all files except the `open-in-browser.*` files
+4. create a `.gitignore` file to exclude the `open-in-browser.*` files and
+   some common unwanted files like `.DS_Store` (Mac), `*.swp` (Vim)
+   or `*~` (Emacs).
+5. make a new branch using `git branch <branch name>`. Checkout if the branch
    exists with `git branch` and then `git checkout <branch name>` to move to it.
-5. use `git mv` to put your recipe file into the corresponding subfolder
+6. use `git mv` to put your recipe file into the corresponding subfolder
    as `recipes/recipe.md`. This will overwrite the default recipe.
-6. look again at `index.html` with your browser and see if your recipe shows up.
-7. commit all the changes
-8. *Markdown-ize* your recipe (if you don't know what's Markdown and/or how to
+7. look again at `index.html` with your browser and see if your recipe shows up.
+8. commit all the changes
+9. *Markdown-ize* your recipe (if you don't know what's Markdown and/or how to
    use it, please visit [this page](markdown_for_GitChefs.md));
-9. use `git mv recipes/recipe.md recipes/<your_recipe>.md` to give a more
-   appropriate name of your choice.
-10. edit `index.html` to change the name of the recipe file.
-11. commit these changes
-12. do further edits to `<your_recipe>.md`, add one ore more images
-13. commit the final version
-14. switch back to the `main` (or `master`) branch; create a `README.md` file;
+10. use `git mv recipes/recipe.md recipes/<your_recipe>.md` to give a more
+    appropriate name of your choice.
+11. edit `index.html` to change the name of the recipe file.
+12. commit these changes
+13. do further edits to `<your_recipe>.md`, add one ore more images
+14. commit the final version
+15. switch back to the `main` (or `master`) branch; create a `README.md` file;
     make a few more commits
-15. use ["Git Graph"](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+16. use ["Git Graph"](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
     with Visual Studio Code or `git log --all --graph --decorate` in the
     terminal to visualize the git graph structure. Other possible GUI are
     [gitk](https://git-scm.com/docs/gitk), [GitUp](http://gitup.co) on Mac, or
     [ungit](https://github.com/FredrikNoren/ungit) on all platforms
     (other clients are listed [here](https://git-scm.com/download/gui/linux))
-16. merge the branch into the `main` (or `master`) branch
+17. merge the branch into the `main` (or `master`) branch
 
 ### 2.2 You should have learned
 
